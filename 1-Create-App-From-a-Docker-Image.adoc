@@ -113,18 +113,16 @@ Now add a route to the service with the following command. `oc expose`
 command will allow you to expose your service to the world so that you
 can access it from the browser.
 
-*Note*: In this example, I am using a domain name of
-`apps.workshop.osecloud.com`. *Ask the instructor for the domain name suffix* for
-your setup an change it.
+*Note*: Replace UserName with id you've been assigned - also in STEP 4!!!
 
 ....
-$ oc expose service welcome --name=welcome
+$ oc expose service welcome --name=welcome --hostname=welcome.UserName.<<DomainNameSuffix>>
 
 NAME      HOST/PORT                     PATH      SERVICE   LABELS
 welcome   welcome.UserName.apps.workshop.osecloud.com             welcome
 ....
 
-*Step 4: Try your application*
+*Step 4: curl -Is http://welcome.UserName.<<DomainNameSuffix>>
 
 Access the application: Now access the application using curl (looking
 for 200 status code) or from the browser and see the result
