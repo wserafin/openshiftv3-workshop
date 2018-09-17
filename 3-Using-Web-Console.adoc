@@ -4,9 +4,8 @@ Using Web Console
 
 In this lab exercise, we will review the OpenShift Web Console.
 
-Type in the master public URL provided by your instructor in a browser.
-Use `<master public URL>:<port>`. You will be directed to an OpenShift
-login page.
+Tpen a browser and type in the master public URL {{CONSOLE_ADDRESS}}
+You will be directed to an OpenShift login page.
 
 *Note*: Your browser may complain about the server’s security
 certificates not trusted by your computer. You can agree to proceed to
