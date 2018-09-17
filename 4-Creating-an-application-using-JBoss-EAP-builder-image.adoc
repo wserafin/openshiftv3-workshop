@@ -301,7 +301,7 @@ Route should be already created.
 $ oc get routes
 
 NAME      HOST/PORT                                                      PATH      SERVICES   PORT       TERMINATION
-ks        ks-myjbossapp-Username.apps.workshop.osecloud.com                                 ks         8080-tcp
+ks        ks-myjbossapp-Username.{{APPS_ADDRESS}}                                   ks         8080-tcp
 ....
 
 If route does not show, we expose the service `ks` via the command
