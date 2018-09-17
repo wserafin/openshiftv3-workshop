@@ -348,7 +348,7 @@ $ curl ks-myjbossapp-UserName.<<DomainNameSuffix>>
 </html>
 ....
 
-Go to https://ks-myjbossapp-UserName.<<DomainNameSuffix>>via your browser.
+Go to https://ks-myjbossapp-UserName.{{APPS_ADDRESS}}  via your browser.
 Please replace your UserName with yours.
 
 image::images/ks-myjbossapp.png[image]
