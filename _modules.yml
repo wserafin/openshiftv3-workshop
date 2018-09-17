@@ -51,11 +51,11 @@ modules:
     name: Code Promotion across Environments
   13-Using-Persistent-Storage:
     name: Using persistent storage
-  14-Deploy-a-Spring-Boot-Application:
+  14-Using-a-Custom-S2I-Image:
     name: Deploy a SpringBoot Application
-  15-Adding-Spring-Boot-S2I-Image-to-the-Project-Catalog:
+  15-Adding-Custom-S2I-Image-to-the-Project-Catalog:
     name: Adding Spring Boot S2I Image to the Project Catalog
-  16-Adding-database-to-your-Spring-Boot-Application:
+  16-Using-ConfigMap-to-Inject-Application-Configuration:
     name: Adding a backend database to the SpringBoot application
   17-Dynamic-Configuration-Updates-using-ConfigMap:
     name: Dynamic configuration updates using ConfigMap
