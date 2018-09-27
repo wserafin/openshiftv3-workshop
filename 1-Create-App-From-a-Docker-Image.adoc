@@ -121,7 +121,7 @@ your setup an change it.
 $ oc expose service welcome --name=welcome
 
 NAME      HOST/PORT                     PATH      SERVICE   LABELS
-welcome   welcome.UserName.apps.workshop.osecloud.com             welcome
+welcome   welcome.username.apps.ocpdemo.com             welcome
 ....
 
 *Step 4: Try your application*
@@ -183,4 +183,4 @@ Congratulations!! You now know how to create a project, an application
 using an external docker image and navigate around. Get ready for more
 fun stuff!
 
-link:0_toc.adoc[Table Of Contents]
+
