@@ -299,7 +299,7 @@ Route should be already created.
 $ oc get routes
 
 NAME      HOST/PORT                                                      PATH      SERVICES   PORT       TERMINATION
-ks        ks-myjbossapp-Username.{{APPS_ADDRESS}}                                   ks         8080-tcp
+ks        ks-myjbossapp-Username.apps.ocpdemo.com                                 ks         8080-tcp
 ....
 
 If route does not show, we expose the service `ks` via the command
@@ -346,7 +346,7 @@ $ curl ks-myjbossapp-UserName.apps.ocpdemo.com
 </html>
 ....
 
-Go to https://ks-myjbossapp-UserName.{{APPS_ADDRESS}}  via your browser.
+Go to https://ks-myjbossapp-UserName.apps.ocpdemo.com  via your browser.
 Please replace your UserName with yours.
 
 image::images/ks-myjbossapp.png[image]
