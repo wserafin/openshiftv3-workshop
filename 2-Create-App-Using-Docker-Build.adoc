@@ -14,7 +14,7 @@ it. Run the following command to make sure. *Remember* to substitute
 UserName with your username.
 
 ....
-$ oc project mycliproject-UserName
+$ oc project mycliproject-username
 ....
 
 *Step 2: Create an application that uses docker file*
@@ -392,7 +392,7 @@ And then we check the route exposed.
 $ oc get routes
 
 NAME      HOST/PORT                                           PATH      SERVICES   PORT       TERMINATION   WILDCARD
-time      time-mycliproject-UserName.{{APPS_ADDRESS}}          time       8080-tcp                 None
+time      time-mycliproject-UserName.apps.ocpdemo.com      time       8080-tcp                 None
 ....
 
 *Note:* Unlike in the previous lab, this time we did not use `--hostname`
