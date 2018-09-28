@@ -181,4 +181,4 @@ Congratulations!! You now know how to create a project, an application
 using an external docker image and navigate around. Get ready for more
 fun stuff!
 
-link:https://github.com/wserafin/openshiftv3-workshop/blob/master/0_toc.adoc[Table Of Contents]
+link:https://github.com/RedHatWorkshops/openshiftv3-workshop/blob/master/0_toc.adoc[Table Of Contents]
