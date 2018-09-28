@@ -183,5 +183,3 @@ fun stuff!
 
 
 
-
-link:https://github.com/RedHatWorkshops/openshiftv3-workshop/blob/master/0_toc.adoc[Table Of Contents]
