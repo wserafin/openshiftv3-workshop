@@ -90,11 +90,13 @@ Select Languages -> PHP -> PHP
 Click *Next*
 
 ****
+WARNING: Before finsihing use `Advanced Options` SECTION !!!!
 Add to Project: consoleproject-UserName (this should be the same project as MySQL Ephemeral)
 Application Name: pricelist
 Git Repository: https://github.com/RedHatWorkshops/php-pricelist
 
 image::images/php.png[image]
+
 
 
 Click onto the link `Advanced Options`
