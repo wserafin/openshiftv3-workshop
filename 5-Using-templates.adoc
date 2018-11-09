@@ -91,6 +91,7 @@ Click *Next*
 
 ****
 WARNING: Before finsihing use `Advanced Options` SECTION !!!!
+*****
 Add to Project: consoleproject-UserName (this should be the same project as MySQL Ephemeral)
 Application Name: pricelist
 Git Repository: https://github.com/RedHatWorkshops/php-pricelist
@@ -155,7 +156,7 @@ console.
 
 Now use `curl` to run the database `bootstrap` script
 ....
-$ oc project
+$ oc project consoleproject-UserName
 Using project "consoleproject-Username" on server "ocpdemo.com:8443".
 
 $ curl -k http://$(oc get route/pricelist -o jsonpath='{.spec.host}')/create_database.php
