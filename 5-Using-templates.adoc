@@ -159,7 +159,7 @@ console.
 Now use `curl` to run the database `bootstrap` script
 ....
 $ oc project consoleproject-UserName
-Using project "consoleproject-Username" on server "ocpdemo.com:8443".
+Using project "consoleproject-Username" on server "master.apps.telus-0af8.openshiftworkshop.com".
 
 $ curl -k http://$(oc get route/pricelist -o jsonpath='{.spec.host}')/create_database.php
 Array
@@ -175,8 +175,8 @@ Go ahead and open your application. The URL will be displayed by `oc get route`
 
 ....
 $ oc get route
-NAME        HOST/PORT                                                    PATH      SERVICES    PORT       TERMINATION   WILDCARD
-pricelist   pricelist-consoleproject-Username.apps.ocpdemo.com 	                   pricelist   8080-tcp      None
+NAME        HOST/PORT                                                    PATH       SERVICES    PORT       TERMINATION   WILDCARD
+pricelist   pricelist-consoleproject-Username.apps.telus-0af8.openshiftworkshop.com pricelist   8080-tcp      None
 ....
 
 When you open your application, click on the "Create Record" button and create a record.
