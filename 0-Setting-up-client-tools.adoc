@@ -1,6 +1,6 @@
 [[labs-urls]]
 Labs URLs
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
 
 * CONSOLE: https://master.telus-0af8.openshiftworkshop.com
 
