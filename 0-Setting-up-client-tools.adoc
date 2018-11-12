@@ -1,4 +1,4 @@
-[[setting-up-client-tools]]
+[[labs-urls]]
 Labs URLs
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -10,6 +10,7 @@ Optional:
 
 * TERMIAL: http://terminal-workshop.apps.telus-0af8.openshiftworkshop.com
 
+[[setting-up-client-tools]]
 Setting up client tools
 ~~~~~~~~~~~~~~~~~~~~~~~
 In this Lab we will look at how to install the OpenShift CLI tools.
