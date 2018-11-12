@@ -116,13 +116,13 @@ can access it from the browser.
 *Note*: Replace UserName with id you've been assigned - also in STEP 4!!!
 
 ....
-$ oc expose service welcome --name=welcome --hostname=welcome.UserName.apps.ocpdemo.com
+$ oc expose service welcome --name=welcome --hostname=welcome.UserName.apps.telus-0af8.openshiftworkshop.com
 
 NAME      HOST/PORT                     PATH      SERVICE   LABELS
 welcome   welcome.UserName.apps.workshop.osecloud.com             welcome
 ....
 
-*Step 4: curl -Is http://welcome.UserName.apps.ocpdemo.com
+*Step 4: curl -Is http://welcome.UserName.apps.telus-0af8.openshiftworkshop.com
 
 Access the application: Now access the application using curl (looking
 for 200 status code) or from the browser and see the result
