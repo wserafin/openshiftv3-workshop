@@ -10,7 +10,10 @@ Optional:
 
 * TERMIAL: http://terminal-workshop.apps.telus-0af8.openshiftworkshop.com
 
-* oc login https://master.telus-0af8.openshiftworkshop.com
+....
+oc login https://master.telus-0af8.openshiftworkshop.com
+....
+
 
 [[create-an-app-from-a-docker-image]]
 Create an App from a Docker image
