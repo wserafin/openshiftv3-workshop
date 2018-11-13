@@ -346,7 +346,7 @@ $ curl ks-myjbossapp-UserName.apps.telus-0af8.openshiftworkshop.com
 </html>
 ....
 
-Go to https://ks-myjbossapp-UserName.apps.ocpdemo.com  via your browser.
+Go to http://ks-myjbossapp-UserName.telus-0af8.openshiftworkshop.com  via your browser.
 Please replace your UserName with yours.
 
 image::images/ks-myjbossapp.png[image]
