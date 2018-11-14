@@ -302,7 +302,7 @@ NAME      HOST/PORT                                                      PATH   
 ks        ks-myjbossapp-Username.apps.telus-0af8.openshiftworkshop.com              ks         8080-tcp
 ....
 
-If route does not show, we expose the service `ks` via the command
+!! If route does not show, we expose the service `ks` via the command
 below.
 
 ....
