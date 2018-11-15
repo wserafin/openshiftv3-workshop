@@ -299,10 +299,10 @@ Route should be already created.
 $ oc get routes
 
 NAME      HOST/PORT                                                      PATH      SERVICES   PORT       TERMINATION
-ks        ks-myjbossapp-Username.apps.telus-0af8.openshiftworkshop.com              ks         8080-tcp
+ks        ks-myjbossapp-Username.apps.telus-ea2b.openshiftworkshop.com              ks         8080-tcp
 ....
 
-!! If route does not show, we expose the service `ks` via the command
+!!!! If route does not show, we expose the service `ks` via the command
 below.
 
 ....
@@ -346,7 +346,7 @@ $ curl ks-myjbossapp-UserName.apps.telus-0af8.openshiftworkshop.com
 </html>
 ....
 
-Go to http://ks-myjbossapp-UserName.telus-0af8.openshiftworkshop.com  via your browser.
+Go to http://ks-myjbossapp-UserName.apps.telus-ea2b.openshiftworkshop.com  via your browser.
 Please replace your UserName with yours.
 
 image::images/ks-myjbossapp.png[image]
