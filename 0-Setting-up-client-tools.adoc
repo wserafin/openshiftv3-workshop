@@ -2,13 +2,13 @@
 Labs URLs
 ~~~~~~~~~
 
-* CONSOLE: https://master.telus-ea2b.openshiftworkshop.com
+* CONSOLE: https://master.toronto-50eb.openshiftworkshop.com
 
-* LABs: http://labs-workshop.apps.telus-ea2b.openshiftworkshop.com
+* LABs: http://labs-workshop.apps.toronto-50eb.openshiftworkshop.com
 
 Optional: 
 
-* TERMIAL: http://termial-workshop.apps.telus-ea2b.openshiftworkshop.com 
+* TERMIAL: http://termial-workshop.apps.toronto-50eb.openshiftworkshop.com 
 
 
 [[setting-up-client-tools]]
