@@ -2,16 +2,16 @@
 Labs URLs
 ~~~~~~~~~
 
-* CONSOLE: https://master.telus-ea2b.openshiftworkshop.com
+* CONSOLE: https://master.toronto-50eb.openshiftworkshop.com
 
-* LABs: http://labs-workshop.apps.telus-ea2b.openshiftworkshop.com 
+* LABs: http://labs-workshop.apps.toronto-50eb.openshiftworkshop.com 
 
 Optional: 
 
-* TERMIAL: http://termial-workshop.apps.telus-ea2b.openshiftworkshop.com 
+* TERMIAL: http://termial-workshop.apps.toronto-50eb.openshiftworkshop.com 
 
 ....
-oc login https://master.telus-ea2b.openshiftworkshop.com
+oc login https://master.toronto-50eb.openshiftworkshop.com
 ....
 
 
@@ -28,7 +28,7 @@ how to create an application from an existing docker image.
 the commands below.
 
 ....
-$ oc new-project mycliproject-UserName --description="My CLI Project" --display-name="CLI Project"
+$ oc new-project mycliproject-username --description="My CLI Project" --display-name="CLI Project"
 ....
 
 Upon project creation, OpenShift will automatically switch to the newly
@@ -133,13 +133,13 @@ can access it from the browser.
 *Note*: Replace UserName with id you've been assigned - also in STEP 4!!!
 
 ....
-$ oc expose service welcome --name=welcome --hostname=welcome.UserName.apps.telus-0af8.openshiftworkshop.com
+$ oc expose service welcome --name=welcome --hostname=welcome.UserName.apps.toronto-50eb.openshiftworkshop.com
 
 NAME      HOST/PORT                     PATH      SERVICE   LABELS
 welcome   welcome.UserName.apps.workshop.osecloud.com             welcome
 ....
 
-*Step 4: curl -Is http://welcome.UserName.apps.telus-0af8.openshiftworkshop.com
+*Step 4: curl -Is http://welcome.UserName.apps.toronto-50eb.openshiftworkshop.com
 
 Access the application: Now access the application using curl (looking
 for 200 status code) or from the browser and see the result
@@ -188,7 +188,7 @@ route "welcome" deleted
 service "welcome" deleted
 pod "welcome-1-ynedb" deleted
 ....
-
+$ delete project mycliproject_username    ( replace your username ) 
 You will notice that it has deleted the imagestream for the application,
 the deploymentconfig, the service and the route.
 
