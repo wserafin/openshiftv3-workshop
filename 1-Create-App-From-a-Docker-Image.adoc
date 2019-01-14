@@ -2,16 +2,16 @@
 Labs URLs
 ~~~~~~~~~
 
-* CONSOLE: https://master.toronto-50eb.openshiftworkshop.com
+* CONSOLE: https://ocpdemo.com:8443
 
-* LABs: http://labs-workshop.apps.toronto-50eb.openshiftworkshop.com 
+* LABs: http://labs-workshop.apps.ocpdemo.com  
 
 Optional: 
 
-* TERMIAL: http://termial-workshop.apps.toronto-50eb.openshiftworkshop.com 
+* TERMIAL: http://cli-inabox.apps.ocpdemo.com 
 
 ....
-oc login https://master.toronto-50eb.openshiftworkshop.com
+oc login https://ocpdemo.com:8443 
 ....
 
 
@@ -133,13 +133,13 @@ can access it from the browser.
 *Note*: Replace UserName with id you've been assigned - also in STEP 4!!!
 
 ....
-$ oc expose service welcome --name=welcome --hostname=welcome-UserName.apps.toronto-50eb.openshiftworkshop.com
+$ oc expose service welcome --name=welcome --hostname=welcome-UserName.apps.ocpdemo.com
 
 NAME      HOST/PORT                     PATH      SERVICE   LABELS
-welcome   welcome.UserName.apps.workshop.osecloud.com             welcome
+welcome   welcome.welcome-UserName.apps.ocpdemo.com             welcome
 ....
 
-*Step 4: curl -Is http://welcome-UserName.apps.toronto-50eb.openshiftworkshop.com
+*Step 4: curl -Is http://welcome-UserName.apps.ocpdemo.com
 
 Access the application: Now access the application using curl (looking
 for 200 status code) or from the browser and see the result
