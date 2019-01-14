@@ -210,7 +210,7 @@ Run the `oc idle endpoints/time` command to idle the application
 
 ....
 $ oc idle endpoints/time
-Marked service mycliproject-veer/time to unidle resource DeploymentConfig mycliproject-UserName/time (unidle to 3 replicas)
+Marked service mycliproject-UserName/time to unidle resource DeploymentConfig mycliproject-UserName/time (unidle to 3 replicas)
 Idled DeploymentConfig mycliproject-UserName/time (dry run)
 ....
 
