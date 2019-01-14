@@ -4,7 +4,7 @@ Using Web Console
 
 In this lab exercise, we will review the OpenShift Web Console.
 
-Tpen a browser and type in the master public URL https://master.toronto-50eb.openshiftworkshop.com/console
+Tpen a browser and type in the master public URL https://ocpdemo.com:8443/console
 You will be directed to an OpenShift login page.
 
 *Note*: Your browser may complain about the server’s security
