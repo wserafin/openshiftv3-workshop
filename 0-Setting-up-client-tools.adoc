@@ -2,14 +2,13 @@
 Labs URLs
 ~~~~~~~~~
 
-* CONSOLE: https://master.toronto-50eb.openshiftworkshop.com
+* CONSOLE: https://ocpdemo.com:8443
 
-* LABs: http://labs-workshop.apps.toronto-50eb.openshiftworkshop.com
+* LABs: http://labs-workshop.apps.ocpdemo.com
 
 Optional: 
 
-* TERMIAL: http://termial-workshop.apps.toronto-50eb.openshiftworkshop.com 
-
+* TERMIAL: http://http://cli-inabox.apps.ocpdemo.com
 
 [[setting-up-client-tools]]
 Setting up client tools
