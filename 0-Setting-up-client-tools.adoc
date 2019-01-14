@@ -8,7 +8,7 @@ Labs URLs
 
 Optional: 
 
-* TERMIAL: http://http://cli-inabox.apps.ocpdemo.com
+* TERMIAL: http://cli-inabox.apps.ocpdemo.com
 
 [[setting-up-client-tools]]
 Setting up client tools
