@@ -159,7 +159,7 @@ console.
 Now use `curl` to run the database `bootstrap` script
 ....
 $ oc project consoleproject-UserName
-Using project "consoleproject-Username" on server "master.apps.toronto-50eb.openshiftworkshop.com".
+Using project "consoleproject-Username" on server "master.apps.ocpdemo.com".
 
 $ curl -k http://$(oc get route/pricelist -o jsonpath='{.spec.host}')/create_database.php
 Array
