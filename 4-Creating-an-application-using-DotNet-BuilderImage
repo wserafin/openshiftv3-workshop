@@ -81,6 +81,49 @@ $ oc logs pod/dotnet-example-1-build
 
 ....
 
+
+*Step 4: Deployment*
+
+Once the image is pushed to the docker registry, OpenShift will trigger
+a deploy process. Let us also quickly look at the deployment
+configuration by running the following command. Note `dc` represents
+`deploymentconfig`.
+
+....
+$ oc get dc dotnet-example -o json
+
+Note where the image is picked from. It shows that the deployment picks
+the image from the local registry (same ip address and port as in
+buildconfig) and the image tag is the same as what we built earlier.
+This means the deployment step deploys the application image what was
+built earlier during the build step.
+
+If you get the list of pods, you’ll notice that the application gets
+deployed quickly and starts running in its own pod.
+
+....
+$ oc get pods
+
+NAME                     READY     STATUS      RESTARTS   AGE
+dotnet-example-1-build   0/1       Completed   0          26m
+dotnet-example-1-ey7m2   1/1       Running     0          12m
+....
+
+....
+$ oc get service dotnet-example
+
+NAME                   CLUSTER-IP      EXTERNAL-IP   PORT(S)                      AGE
+dotnet-example        172.30.201.90   <none>        8080/TCP,8443/TCP,8778/TCP   21m
+....
+
+Route should be already created.
+
+....
+$ oc get routes
+
+NAME      HOST/PORT                                                      PATH      SERVICES   PORT       TERMINATION
+dotnet-example   dotnet-example-dotenet-user4.apps.ocpdemo.com                     dotnet-example   <all>                   None
+
 Run the app 
 
 http://dotnet-example-dotenet-UserName.apps.ocpdemo.com
