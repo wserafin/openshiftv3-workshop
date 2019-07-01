@@ -23,7 +23,72 @@ Open the browser and select your new project *.NET  Applications*.
 
 Click into *Browse Catalog* button.
 
-In the search text box type `dot` and select `.NET Runtime `.
+In the search text box type `dot` and select `.NET Core Example `.
 
 Click Next
+
+....
+In the Add to Project box select the created "My JBoss Applications" Project
+Add to Project: select your project name if it is not show
+
+Application Name: 
+
+.NET builder : dotnet:2.0
+
+Git Repository URL: https://github.com/wserafin/dotnet-core-2.0-example
+
+Git Reference: master
+
+Startup Project: .
+....
+
+image::images/dotnet-example1.png[image]
+image::images/dotnet-example-2.png[image]
+
+
+Click Next
+Select `Create a secret in ... to be used later`
+Click on *Create* and then on *Continue to the project overview*.
+
+*Step 3: Build*
+
+Give it some seconds and you will see OpenShift starts the build process
+for you. You can view the list of builds using `oc get builds` command.
+
+....
+$ oc get builds
+NAME                  TYPE      FROM          STATUS     STARTED         DURATION
+dotnet-example-1      Source    Git@50ea6f4   Complete   2 minutes ago   24s
+....
+
+Note the name of the build that is running i.e. `dotnet-example-1`. We will use that
+name to look at the build logs. Run the command as shown below to look
+at the build logs. This will run for a few mins. At the end you will
+notice that the docker image is successfully created and it will start
+pushing this to OpenShift’s internal docker registry.
+
+....
+$oc get pods
+NAME                   READY     STATUS    RESTARTS   AGE
+dotnet-example-build   1/1       Running   0          11m
+
+....
+
+We can check the logs by executing the following command:
+
+....
+$ oc logs pod/dotnet-example-1-build
+
+....
+
+Run the app 
+
+http://dotnet-example-dotenet-UserName.apps.ocpdemo.com
+Example for user4   http://dotnet-example-dotenet-user4.apps.ocpdemo.com
+
+Congratulations! In this exercise you have learned how to create, build
+and deploy a .NET application using OpenShift’s .NET Builder
+Image.
+
+link:0_toc.adoc[Table Of Contents]
 
