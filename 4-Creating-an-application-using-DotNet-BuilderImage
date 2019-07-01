@@ -1,0 +1,29 @@
+[[creating-an-application-using-dotnet-builder-image]]
+Creating an application using .NET builder image
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In this exercise we will learn how to create an application using source
+code and the .NET builder image.
+
+*Step 1: Create a project or use an existing project*
+
+If you want to, you can create a new project based on what you have
+learned in previous labs. Or you can create a new project for JBoss
+Applications.
+
+*Remember* to replace the username before running the command.
+
+....
+$ oc new-project mydotent-UserName --display-name="DotNet Applications" --description="A place for my .NET Applications"
+....
+
+*Step 2: Create an application that uses the .NET builder image*
+
+Open the browser and select your new project *.NET  Applications*.
+
+Click into *Browse Catalog* button.
+
+In the search text box type `dot` and select `.NET Runtime `.
+
+Click Next
+
